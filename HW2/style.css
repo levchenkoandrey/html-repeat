@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+
+.bg {
+    background-color: #f6e67f;
+}
+
+.task {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Roboto Light";
+}
+
+.task:hover {
+    color: #f6e67f;
+    background-color: #666565;
+    opacity: 70%;
+}
+
+.content_center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fontBox {
+    width: 250px;
+    height: 230px;
+    background-color: darkcyan;
+    color: gold;
+    font-size: 1.5em;
+}
+
+.Rubik {
+    font-family: "Rubik Pixels";
+}
+
+.Sedgwick {
+    font-family: "Sedgwick Ave Display";
+}
+
+.Dancing {
+    font-family: "Dancing Script";
+}
+
+.Fjalla {
+    font-family: "Fjalla One";
+}
+
+.Indie {
+    font-family: "Indie Flower";
+}
+
+.moveBox {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    color: darkcyan;
+}
+
+.moveBox:hover {
+    margin: 0;
+    border-radius: 50%;
+    background-color: blue;
+    cursor: pointer;
+    color: gold;
+    box-shadow: 0px 6px 65px -12px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 6px 65px -12px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 6px 65px -12px rgba(0, 0, 0, 0.76);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Quicksand";
+}
+
+.widgets, .contact {
+    background-color: blue;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.widgets, .contact, .boxes {
+    width: 100%;
+    margin: 20px;
+}
+
+.widgets, .boxes {
+    height: 40vh;
+}
+
+.contact {
+    height: 1000px;
+}
+
+.box {
+    background-color: darkblue;
+    font-size: 35px;
+    color: gray;
+    width: 32%;
+    height: 100%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
